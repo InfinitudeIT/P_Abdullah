@@ -28,7 +28,7 @@ function Users() {
               <input type="password" id="confirm-password" name="confirm-password" placeholder="Re-enter Password"/>
           </div>
           <div class="form-actions">
-              <button type="submit" onClick="handleSubmit">Create user:&nbsp;</button>
+              <button type="submit" onClick={handleSubmit}>Create user:&nbsp;</button>
           </div>
       </form>
   </div>
